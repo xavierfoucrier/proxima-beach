@@ -1,0 +1,82 @@
+<Graph Description="" Group="Proxima Flow Graph" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="5" Class="Movement:MoveEntityTo" pos="-70,-150,0" flags="0" EntityGUID="{E9AA8B6E-ECFA-40AA-A18F-8F1CED79C767}" EntityGUID_64="40AAECFAE9AA8B6E">
+   <Inputs entityId="0" Destination="0,1788,1580" DynamicUpdate="1" Speed="45" EaseDistance="0"/>
+  </Node>
+  <Node Id="7" Class="entity:ParticleEffect" pos="180,10,0" flags="0" EntityGUID="{00479E7F-F598-43DE-A6C5-9637DFEAFAFA}" EntityGUID_64="43DEF59800479E7F">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="9" Class="entity:ParticleEffect" pos="180,100,0" flags="0" EntityGUID="{14F655A7-6797-4F88-8A2A-D0B3B1AA651E}" EntityGUID_64="4F88679714F655A7">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="11" Class="entity:ParticleEffect" pos="180,190,0" flags="0" EntityGUID="{928F7664-66C6-4000-8E17-F088955E17D7}" EntityGUID_64="400066C6928F7664">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="13" Class="entity:ParticleEffect" pos="180,280,0" flags="0" EntityGUID="{650B1EDC-A41D-4499-A56A-1C3649D2462D}" EntityGUID_64="4499A41D650B1EDC">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="15" Class="entity:ParticleEffect" pos="340,10,0" flags="0" EntityGUID="{4A648935-7835-445C-BDB7-213C81002BFC}" EntityGUID_64="445C78354A648935">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="17" Class="entity:ParticleEffect" pos="340,100,0" flags="0" EntityGUID="{5D06D314-A9B2-410B-86B2-6CFE846FBBA9}" EntityGUID_64="410BA9B25D06D314">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="19" Class="entity:ParticleEffect" pos="340,190,0" flags="0" EntityGUID="{4DC11D4B-B903-4CF1-9496-90A9F26BA59D}" EntityGUID_64="4CF1B9034DC11D4B">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="21" Class="entity:ParticleEffect" pos="340,280,0" flags="0" EntityGUID="{AC186EC4-384F-4B80-91E6-8FA02DD73558}" EntityGUID_64="4B80384FAC186EC4">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="23" Class="entity:SoundEventSpot" pos="180,-270,0" flags="0" EntityGUID="{0C535603-6847-4938-87A4-8C43FB72BA77}" EntityGUID_64="493868470C535603">
+   <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+  </Node>
+  <Node Id="27" Class="entity:SpawnPoint" pos="-570,-130,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Spawn="0"/>
+  </Node>
+  <Node Id="31" Class="Movement:MoveEntityTo" pos="340,-110,0" flags="0" EntityGUID="{E9AA8B6E-ECFA-40AA-A18F-8F1CED79C767}" EntityGUID_64="40AAECFAE9AA8B6E">
+   <Inputs entityId="0" Destination="1590,570,1580" DynamicUpdate="0" Speed="10000" EaseDistance="0"/>
+  </Node>
+  <Node Id="35" Class="entity:GeomEntity" pos="-230,-120,0" flags="0" InHideMask="15" OutHideMask="15" EntityGUID="{E9AA8B6E-ECFA-40AA-A18F-8F1CED79C767}" EntityGUID_64="40AAECFAE9AA8B6E">
+   <Inputs entityId="0" Hide="0" Remove="0" UnHide="0"/>
+  </Node>
+  <Node Id="36" Class="entity:GeomEntity" pos="180,-80,0" flags="0" EntityGUID="{E9AA8B6E-ECFA-40AA-A18F-8F1CED79C767}" EntityGUID_64="40AAECFAE9AA8B6E">
+   <Inputs entityId="0" Hide="0" Remove="0" UnHide="0"/>
+  </Node>
+  <Node Id="37" Class="Inventory:AddItem" pos="-230,-270,0" flags="0">
+   <Inputs item="Parachute" ItemType="" Unique="1"/>
+  </Node>
+  <Node Id="45" Class="HUD:DisplayInfoMessage" pos="-230,-340,0" flags="0">
+   <Inputs message="Go Go Go!" displayTime="5"/>
+  </Node>
+  <Node Id="46" Class="CrysisFX:ScreenFader" pos="-230,-480,0" flags="0">
+   <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="2" FadeOutTime="2" color_FadeColor="0,0,0" tex_TextureName=""/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="7" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="5" portIn="Disable" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="5" portIn="Stop" portOut="Current" enabled="1"/>
+  <Edge nodeIn="36" nodeOut="5" portIn="Hide" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="27" portIn="Play" portOut="Spawn" enabled="1"/>
+  <Edge nodeIn="35" nodeOut="27" portIn="UnHide" portOut="Spawn" enabled="1"/>
+  <Edge nodeIn="37" nodeOut="27" portIn="add" portOut="Spawn" enabled="1"/>
+  <Edge nodeIn="45" nodeOut="27" portIn="display" portOut="Spawn" enabled="1"/>
+  <Edge nodeIn="46" nodeOut="27" portIn="FadeIn" portOut="Spawn" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="35" portIn="Start" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="35" portIn="Enable" portOut="UnHide" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="36" portIn="Start" portOut="Hide" enabled="1"/>
+ </Edges>
+</Graph>

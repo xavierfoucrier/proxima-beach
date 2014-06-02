@@ -1,0 +1,127 @@
+<Graph Description="" Group="Proxima Flow Graph" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="38" Class="Time:Delay" pos="-90,-60,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="40" Class="Time:Delay" pos="-90,130,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="44" Name="Light deactivation" Class="_comment" pos="-330,-70,0" flags="0"/>
+  <Node Id="49" Class="Time:TimeOfDayTrigger" pos="-280,-20,0" flags="0">
+   <Inputs Active="1" Time="6"/>
+  </Node>
+  <Node Id="50" Class="Time:TimeOfDayTrigger" pos="-280,90,0" flags="0">
+   <Inputs Active="1" Time="18"/>
+  </Node>
+  <Node Id="51" Name="Light activation" Class="_comment" pos="-330,160,0" flags="0"/>
+  <Node Id="53" Class="entity:ParticleEffect" pos="180,-730,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="56" Class="entity:ParticleEffect" pos="180,-640,0" flags="0" EntityGUID="{20DFB772-9BCE-46C3-933D-03055A6B6F0F}" EntityGUID_64="46C39BCE20DFB772">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="58" Class="entity:ParticleEffect" pos="180,-550,0" flags="0" EntityGUID="{864B6C87-5369-4974-8088-C44AE443194E}" EntityGUID_64="49745369864B6C87">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="60" Class="entity:ParticleEffect" pos="180,-460,0" flags="0" EntityGUID="{57ACBBAB-5E2F-4C9C-AF56-1CB4F85EE954}" EntityGUID_64="4C9C5E2F57ACBBAB">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="62" Class="entity:ParticleEffect" pos="180,-370,0" flags="0" EntityGUID="{30CA1FA3-8A24-4328-8401-19AADBDD1950}" EntityGUID_64="43288A2430CA1FA3">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="64" Class="entity:ParticleEffect" pos="180,-280,0" flags="0" EntityGUID="{7D6EAA8B-63F1-4B48-B342-16B2EB8EE40D}" EntityGUID_64="4B4863F17D6EAA8B">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="66" Class="entity:ParticleEffect" pos="180,-190,0" flags="0" EntityGUID="{550A33E0-C823-494F-8365-78469B6A4BF0}" EntityGUID_64="494FC823550A33E0">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="68" Class="entity:ParticleEffect" pos="180,-100,0" flags="0" EntityGUID="{041E8988-0818-4040-8610-95C818A7B705}" EntityGUID_64="40400818041E8988">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="70" Class="entity:ParticleEffect" pos="180,-10,0" flags="0" EntityGUID="{20449697-BEA7-45D0-B223-AF0D2AF82D39}" EntityGUID_64="45D0BEA720449697">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="72" Class="entity:ParticleEffect" pos="180,80,0" flags="0" EntityGUID="{B49EC0EB-6A47-4DDB-A840-2779236B5D14}" EntityGUID_64="4DDB6A47B49EC0EB">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="74" Class="entity:ParticleEffect" pos="180,170,0" flags="0" EntityGUID="{20BB5CE2-A456-4F56-B813-2EBCAD0557D6}" EntityGUID_64="4F56A45620BB5CE2">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="76" Class="entity:ParticleEffect" pos="180,260,0" flags="0" EntityGUID="{793111E6-CC3A-48A7-8AFA-537E6A0CC044}" EntityGUID_64="48A7CC3A793111E6">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="78" Class="entity:ParticleEffect" pos="180,350,0" flags="0" EntityGUID="{78D9D796-DBFE-4E42-BC82-4AEA0D1C1B22}" EntityGUID_64="4E42DBFE78D9D796">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="80" Class="entity:ParticleEffect" pos="180,440,0" flags="0" EntityGUID="{17149472-DF54-46C9-8AC8-1F15C99A1E83}" EntityGUID_64="46C9DF5417149472">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="82" Class="entity:ParticleEffect" pos="180,530,0" flags="0" EntityGUID="{FCA40839-4CFE-4077-9FA1-0AFCB9846D02}" EntityGUID_64="40774CFEFCA40839">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="84" Class="entity:ParticleEffect" pos="180,620,0" flags="0" EntityGUID="{D408818A-D7BB-448B-BF78-9A8DCA4BF142}" EntityGUID_64="448BD7BBD408818A">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="86" Class="entity:ParticleEffect" pos="180,710,0" flags="0" EntityGUID="{EA8CCFC4-47B1-4F83-BDFC-BA7313CA6B55}" EntityGUID_64="4F8347B1EA8CCFC4">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="88" Class="entity:ParticleEffect" pos="180,800,0" flags="0" EntityGUID="{5735A432-35B2-4782-9CDE-E81A35186F40}" EntityGUID_64="478235B25735A432">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="90" Class="entity:ParticleEffect" pos="180,890,0" flags="0" EntityGUID="{65935D22-7F3F-44C4-9A8A-61ED4B3AC7E5}" EntityGUID_64="44C47F3F65935D22">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="92" Class="entity:ParticleEffect" pos="180,980,0" flags="0" EntityGUID="{91C13CEB-AE48-4DA2-A951-429ABA6CC610}" EntityGUID_64="4DA2AE4891C13CEB">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="94" Class="entity:ParticleEffect" pos="180,1070,0" flags="0" EntityGUID="{605A4C68-D8F1-40A3-995A-8F296BE04DD0}" EntityGUID_64="40A3D8F1605A4C68">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="53" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="58" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="60" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="62" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="64" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="68" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="72" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="92" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="94" nodeOut="38" portIn="Disable" portOut="out" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="58" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="60" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="62" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="64" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="66" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="68" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="70" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="72" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="92" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="94" nodeOut="40" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="38" nodeOut="49" portIn="in" portOut="Trigger" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="50" portIn="in" portOut="Trigger" enabled="1"/>
+ </Edges>
+</Graph>
