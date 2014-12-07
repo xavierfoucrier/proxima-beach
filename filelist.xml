@@ -1,7 +1,7 @@
 <download name="proxima-beach" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="51856909" md5="767f03140776ab3f5359afd5c2189d13"/>
+  <file src="level.pak" dest="level.pak" size="51874359" md5="c77306c2898146416a7b0d997c98277f"/>
   <file src="proxima-beach.xml" dest="proxima-beach.xml" size="611" md5="896ca6f85237a1428cf85633eb44933e"/>
  </files>
 </download>
