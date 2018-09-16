@@ -3,7 +3,7 @@ Crysis map based on the famous **CryEngine 2** from Crytek®.
 
 *While Nomad is progressing in the Korean Island, another American unit called SIS (Special Intervantion Squadron) started to surround a small beach on the east of the Korea. The aim of this American attack is to take control of the Island and kill all the KPA units. The SIS rapidly discovered that the Koreans had already acquired the nanosuit technology and some UFO weapons to prepare worldwide invasion.*
 
-![Proxima Beach](https://raw.github.com/xavierfoucrier/proxima-beach/master/logo.png "Proxima Beach")
+![Proxima Beach](logo.png "Proxima Beach")
 
 
 ## Features
