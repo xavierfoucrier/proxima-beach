@@ -1,0 +1,19 @@
+<Graph Description="" Group="Proxima Flow Graph" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="Inventory:AddEquipPack" pos="18280,43840,0" flags="0">
+   <Inputs entityId="0" equip_Pack="Proxima_Pack"/>
+  </Node>
+  <Node Id="2" Class="Game:LocalPlayer" pos="18100,43800,0" flags="0"/>
+  <Node Id="3" Class="Start" pos="17900,43870,0" flags="0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="6" Class="Inventory:RemoveAllItems" pos="18070,43920,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="1" nodeOut="2" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="Activate" portOut="output" enabled="1"/>
+  <Edge nodeIn="1" nodeOut="6" portIn="Trigger" portOut="Done" enabled="1"/>
+ </Edges>
+</Graph>
