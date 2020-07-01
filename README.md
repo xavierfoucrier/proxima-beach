@@ -18,6 +18,15 @@ Here you will find some features include **in the map**:
 8. C17 spawning
 9. And much more! ...
 
+## Showcase
+Youtube videos where you can see the **map running live on CryEngine**:
+
+1. [Speed mapping in SandBox 2 editor (speed x3)](https://www.youtube.com/watch?v=ofS01QpkEy0)
+2. [Experiencing time scale in CryEngine 2](https://www.youtube.com/watch?v=fEmk-Nj-MIE)
+3. [Proxima Beach 1.5.2 "The American attack"](https://www.youtube.com/watch?v=xburjnrW3hg)
+
+> All footages were captured in-game.
+
 ## Dependencies
 If you want to open and edit this map, you need to have **some requirements** set on your machine.
 
