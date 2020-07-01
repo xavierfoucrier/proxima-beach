@@ -5,9 +5,8 @@ Crysis map based on the famous **CryEngine 2** from Crytek®.
 
 ![Proxima Beach](logo.png "Proxima Beach")
 
-
 ## Features
-Here you will find some of the features included **in the map**:
+Here you will find some features include **in the map**:
 
 1. Time of day
 2. Terrain areas
@@ -19,24 +18,15 @@ Here you will find some of the features included **in the map**:
 8. C17 spawning
 9. And much more! ...
 
-
 ## Dependencies
-If you want to open and edit this map, you need to have **some requirements** setted on your machine.
+If you want to open and edit this map, you need to have **some requirements** set on your machine.
 
 1. CryEngine Editor called `Sandbox 2.0` required
-2. Windows plateform, working fine on `Windows 7`
+2. Windows platform, working fine on `Windows 7`
 3. Good 3D graphic card, tested and built with a `Nvidia GeForce GTX 660 Ti` from EVGA (Signature 2)
 
-
 ## Download
-The map is always under construction but you can download a release of the map by choosing the one you want in the [release library](https://github.com/xavierfoucrier/proxima-beach/releases).
-
-The version's notation is based on `Semantic versioning`, [https://semver.org](https://semver.org).
-
-
-## Updates
-You can **track the project** on [Github](https://github.com/xavierfoucrier) and/or **follow me** on [Twitter](https://twitter.com/xavierfoucrier).
-
+The map is **always under construction**, but you can download a release by choosing the one you want in the [release history](https://github.com/xavierfoucrier/proxima-beach/releases).
 
 ## License
 The project is developed under the **MIT** license:
@@ -46,7 +36,3 @@ The project is developed under the **MIT** license:
 - **Limitations**: Software is provided without warranty and the software author/license owner cannot be held liable for damages.
 
 Read the [full license](LICENSE.md) for more information about your rights.
-
-## Questions?
-If you have any questions, please **feel free to contact me!**  
-Check out my website at [https://xavierfoucrier.dev](https://xavierfoucrier.dev).
