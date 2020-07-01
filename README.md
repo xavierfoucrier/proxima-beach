@@ -45,3 +45,7 @@ The project is developed under the **MIT** license:
 - **Limitations**: Software is provided without warranty and the software author/license owner cannot be held liable for damages.
 
 Read the [full license](LICENSE.md) for more information about your rights.
+
+## Questions?
+If you have any questions, please **feel free to contact me!**  
+[xavier.foucrier [at] gmail.com](mailto:xavier.foucrier@gmail.com)
