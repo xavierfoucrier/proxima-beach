@@ -49,4 +49,4 @@ See the [full legal code](https://creativecommons.org/licenses/by-nc/4.0/) of th
 
 ## Questions?
 If you have any questions, please **feel free to contact me!**  
-Check out my website at [https://en.xavierfoucrier.fr](https://en.xavierfoucrier.fr).
+Check out my website at [https://xavierfoucrier.dev](https://xavierfoucrier.dev).
